@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		990D48D92878F43000ED407F /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990D48D82878F43000ED407F /* APIKey.swift */; };
 		9956115C2763C0080054E753 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9956115B2763C0080054E753 /* AppDelegate.swift */; };
 		9956115E2763C0080054E753 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9956115D2763C0080054E753 /* SceneDelegate.swift */; };
 		995611632763C0080054E753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 995611612763C0080054E753 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		990D48D82878F43000ED407F /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		995611582763C0080054E753 /* News-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "News-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9956115B2763C0080054E753 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9956115D2763C0080054E753 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				995611772763C6840054E753 /* Services */,
 				995611722763C1830054E753 /* Cells */,
 				9956116F2763C0C30054E753 /* Controllers */,
+				990D48D82878F43000ED407F /* APIKey.swift */,
 				9956115B2763C0080054E753 /* AppDelegate.swift */,
 				9956115D2763C0080054E753 /* SceneDelegate.swift */,
 				995611612763C0080054E753 /* Main.storyboard */,
@@ -196,6 +199,7 @@
 			files = (
 				995611752763C1B30054E753 /* ArticleTableViewCell.swift in Sources */,
 				995611712763C0E80054E753 /* NewsTableViewController.swift in Sources */,
+				990D48D92878F43000ED407F /* APIKey.swift in Sources */,
 				9956117C2763CB0F0054E753 /* Article.swift in Sources */,
 				9956115C2763C0080054E753 /* AppDelegate.swift in Sources */,
 				995611792763C6A00054E753 /* Webservice.swift in Sources */,

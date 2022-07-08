@@ -53,7 +53,7 @@ class NewsTableViewController: UITableViewController {
     }
     
     private func populateNews() {
-        let url = URL(string: "https://newsapi.org/v2/everything?q=Apple&from=2021-12-06&sortBy=popularity&apiKey=06b76736facf4432bcfd15d554f2cb08")!
+        let url = URL(string: "https://newsapi.org/v2/everything?q=Apple&from=2021-12-06&sortBy=popularity&apiKey=\(APIKey.newsKey)")!
         
         Webservice.getArticles(url: url) { [weak self] articles in
             
